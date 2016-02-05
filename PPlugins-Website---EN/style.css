@@ -1,0 +1,161 @@
+/* Webpage CSS */
+/* Global Settings */
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+
+  img {
+    margin: auto;
+  }
+
+  img.left {
+    margin-left: auto;
+  }
+
+  img.right {
+    margin-right: auto;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .margin {
+    margin-bottom: 45px;
+  }
+
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+
+  #active {
+    color: #1abc9c;
+  }
+
+  a:active {
+    color: #1abc9c;
+  }
+
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+ /* NavBar Settings */
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  a.nav {
+    color: #1abc9c;
+  }
+
+  .dropdown-menu {
+    text-align: center;
+    margin: auto;
+    min-width: 12px;
+    width: 124px;
+  }
+
+  li>a.dropdown {
+    color: #777;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+  }
+ /* End of NavBar Settings */
+ /* Animations */
+  .slideanim {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 3s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  .fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+   }
+ /* End of Animations */
+  .align-center {
+	  text-align: center;
+	  margin: auto;
+  }
+
+  footer {
+    height: 50px;
+    text-align: center;
+  }
+
+  a {
+	  color: #FFF;
+  }
+
+  th {
+	  font-size: 25px;
+  }
+
+  h1 {
+	  font-size: 50px;
+  }
+
+  a:hover {
+    color: #FFFFFF;
+  }
+/* End of Global Settings */
