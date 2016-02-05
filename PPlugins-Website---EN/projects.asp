@@ -8,7 +8,6 @@
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="index.js"></script>
   <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
